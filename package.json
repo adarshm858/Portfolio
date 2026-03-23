@@ -4,8 +4,5 @@
   "description": "Portfolio deployment config",
   "scripts": {
     "build": "mkdir -p dist/portfolio && cp index.html styles.css script.js dist/portfolio/ && cp -r assets dist/portfolio/ 2>/dev/null || true"
-  },
-  "dependencies": {
-    "@angular/cli": "^21.2.3"
   }
 }
