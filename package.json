@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio deployment config",
   "scripts": {
+    "install": "echo 'No install required'",
     "build": "mkdir -p dist/portfolio && cp index.html styles.css script.js dist/portfolio/ && cp -r assets dist/portfolio/ 2>/dev/null || true"
   }
 }
